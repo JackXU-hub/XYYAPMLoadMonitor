@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XYYAPMLoadMonitor_Example' do
+  pod 'XYYAPMLoadMonitor', :path => '../'
+
+  target 'XYYAPMLoadMonitor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
