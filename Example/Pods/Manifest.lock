@@ -1,5 +1,5 @@
 PODS:
-  - XYYAPMLoadMonitor (0.1.0)
+  - XYYAPMLoadMonitor (0.1.2)
 
 DEPENDENCIES:
   - XYYAPMLoadMonitor (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XYYAPMLoadMonitor: 097c662727962360786a48ccf4149a208328055d
+  XYYAPMLoadMonitor: 2ae765a4067a1b6c496167fbe4baffeeb49d5f68
 
 PODFILE CHECKSUM: a2be844fc454f99417054bafeceb46f990187c54
 

@@ -73,6 +73,12 @@ typedef NS_ENUM(NSInteger, XYYLogSendStrategy) {
 //外部调用APP版本
 @property (nonatomic, copy)NSString *appVersion;
 
+//App 首次启动耗时（冷启动）
+@property (nonatomic, assign)NSInteger appLaunchDurationThreshold;
+
+//Activity/ViewController 启动耗时
+@property (nonatomic, assign)NSInteger activityLaunchDurationThreshold;
+
 
 
 @end
