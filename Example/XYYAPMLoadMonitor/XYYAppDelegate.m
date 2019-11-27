@@ -12,10 +12,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-     
+ [[XYYAPMLoadMonitor shareManager]appInitTime];//APP 启动初始化时间
   XYYAPMLoadMonitor *manager = [XYYAPMLoadMonitor shareManager];
- [manager setupWithControllers:@[@"BaseViewController"] appKey:@"C692469853282DD6" bundleId:@"com.apm.demo"];
-  manager.openLog = YES;
+  manager.openLog = YES;//是否开启日志
+  manager.logStrategy = XYYLogSendStrategyCustom;//设置日志发送策略
+  manager.enableMonitor = YES;
+  manager.appVersion = @"1.1.0";//集成SDK应用的版本号
+  manager.sessionResumeInterval = 30;//上报时间间隔 单位为分钟
+  [manager startWithControllers:@[@"BaseViewController"] appKey:@"C692469853282DD6" bundleId:@"com.apm.demo"];
+  [manager firstVCLoadDoneTime];//第一个页面加载完成时间 此句代码需要注入到最后一行
   return YES;
 }
 

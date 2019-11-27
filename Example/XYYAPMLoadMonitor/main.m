@@ -8,10 +8,11 @@
 
 @import UIKit;
 #import "XYYAppDelegate.h"
-
+#import <XYYAPMLoadMonitor/XYYAPMLoadMonitor.h>
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
+        [[XYYAPMLoadMonitor shareManager]startAPPOpenTime];//应用启动开始时间
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([XYYAppDelegate class]));
     }
 }

@@ -36,7 +36,7 @@ typedef NS_ENUM(NSInteger, XYYLogSendStrategy) {
  @pragram bubleId 应用bundleId
  例如@[@"BaseViewController"]
  */
-- (void)setupWithControllers:(NSArray*)controllers appKey:(NSString*)appKey bundleId:(NSString*)bubleId;
+- (void)startWithControllers:(NSArray*)controllers appKey:(NSString*)appKey bundleId:(NSString*)bubleId;
 
 ///APP启动开始时间
 - (void)startAPPOpenTime;
