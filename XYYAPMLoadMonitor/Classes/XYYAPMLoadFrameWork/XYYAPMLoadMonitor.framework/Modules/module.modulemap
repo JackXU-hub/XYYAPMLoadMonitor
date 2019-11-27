@@ -1,0 +1,6 @@
+framework module XYYAPMLoadMonitor {
+  umbrella header "XYYAPMLoadMonitor.h"
+
+  export *
+  module * { export * }
+}

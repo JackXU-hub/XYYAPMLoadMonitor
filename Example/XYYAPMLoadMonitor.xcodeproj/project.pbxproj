@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		8447DB19238D1BAA00684F90 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447DB18238D1BAA00684F90 /* BaseViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CA34AF85A8616297850202BA /* Pods_XYYAPMLoadMonitor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943BBDF294CB12E9F2B8C676 /* Pods_XYYAPMLoadMonitor_Example.framework */; };
 /* End PBXBuildFile section */
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0329114173A0DC1D34B95326 /* XYYAPMLoadMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XYYAPMLoadMonitor.podspec; path = ../XYYAPMLoadMonitor.podspec; sourceTree = "<group>"; };
+		0329114173A0DC1D34B95326 /* XYYAPMLoadMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYYAPMLoadMonitor.podspec; path = ../XYYAPMLoadMonitor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2FE5C8B60913F30680922768 /* Pods-XYYAPMLoadMonitor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYYAPMLoadMonitor_Tests.release.xcconfig"; path = "Target Support Files/Pods-XYYAPMLoadMonitor_Tests/Pods-XYYAPMLoadMonitor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XYYAPMLoadMonitor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYYAPMLoadMonitor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,12 +60,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6155210B4D3BB7672112CEBF /* Pods-XYYAPMLoadMonitor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYYAPMLoadMonitor_Example.release.xcconfig"; path = "Target Support Files/Pods-XYYAPMLoadMonitor_Example/Pods-XYYAPMLoadMonitor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6881D644558F118B92A8C97E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6881D644558F118B92A8C97E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76FE295ACC0D1CC6F15728E1 /* Pods_XYYAPMLoadMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYYAPMLoadMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8447DB17238D1BAA00684F90 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		8447DB18238D1BAA00684F90 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		943BBDF294CB12E9F2B8C676 /* Pods_XYYAPMLoadMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYYAPMLoadMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4605B8049215519EFC78F7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C4605B8049215519EFC78F7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E526D058260CB242709FD647 /* Pods-XYYAPMLoadMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYYAPMLoadMonitor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XYYAPMLoadMonitor_Tests/Pods-XYYAPMLoadMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EABE5808EE6786F9D5556D63 /* Pods-XYYAPMLoadMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYYAPMLoadMonitor_Example.debug.xcconfig"; path = "Target Support Files/Pods-XYYAPMLoadMonitor_Example/Pods-XYYAPMLoadMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* XYYViewController.h */,
 				6003F5A6195388D20070C39A /* XYYViewController.m */,
+				8447DB17238D1BAA00684F90 /* BaseViewController.h */,
+				8447DB18238D1BAA00684F90 /* BaseViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +198,6 @@
 				E526D058260CB242709FD647 /* Pods-XYYAPMLoadMonitor_Tests.debug.xcconfig */,
 				2FE5C8B60913F30680922768 /* Pods-XYYAPMLoadMonitor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +212,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				F02863D97C4F2BBEEA3794FC /* [CP] Embed Pods Frameworks */,
+				3BD7E171D1B13AA122FE7AF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = xudaquan;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 84XFF8NL88;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,6 +303,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3BD7E171D1B13AA122FE7AF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XYYAPMLoadMonitor_Example/Pods-XYYAPMLoadMonitor_Example-frameworks.sh",
+				"${PODS_ROOT}/../../XYYAPMLoadMonitor/Classes/XYYAPMLoadFrameWork/XYYAPMLoadMonitor.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYYAPMLoadMonitor.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XYYAPMLoadMonitor_Example/Pods-XYYAPMLoadMonitor_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8D72CF2FFBC48F4A42834E79 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,24 +365,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F02863D97C4F2BBEEA3794FC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XYYAPMLoadMonitor_Example/Pods-XYYAPMLoadMonitor_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XYYAPMLoadMonitor/XYYAPMLoadMonitor.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYYAPMLoadMonitor.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XYYAPMLoadMonitor_Example/Pods-XYYAPMLoadMonitor_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -365,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* XYYAppDelegate.m in Sources */,
+				8447DB19238D1BAA00684F90 /* BaseViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* XYYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -494,6 +503,7 @@
 			baseConfigurationReference = EABE5808EE6786F9D5556D63 /* Pods-XYYAPMLoadMonitor_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84XFF8NL88;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XYYAPMLoadMonitor/XYYAPMLoadMonitor-Prefix.pch";
 				INFOPLIST_FILE = "XYYAPMLoadMonitor/XYYAPMLoadMonitor-Info.plist";
@@ -510,6 +520,7 @@
 			baseConfigurationReference = 6155210B4D3BB7672112CEBF /* Pods-XYYAPMLoadMonitor_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84XFF8NL88;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XYYAPMLoadMonitor/XYYAPMLoadMonitor-Prefix.pch";
 				INFOPLIST_FILE = "XYYAPMLoadMonitor/XYYAPMLoadMonitor-Info.plist";

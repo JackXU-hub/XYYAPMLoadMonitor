@@ -7,13 +7,16 @@
 //
 
 #import "XYYAppDelegate.h"
-
+#import <XYYAPMLoadMonitor/XYYAPMLoadMonitor.h>
 @implementation XYYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    return YES;
+     
+  XYYAPMLoadMonitor *manager = [XYYAPMLoadMonitor shareManager];
+  [manager setupWithControllers:@[@"BaseViewController"]];
+  manager.openLog = YES;
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
