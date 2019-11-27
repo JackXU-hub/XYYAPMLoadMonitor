@@ -14,7 +14,7 @@
 {
      
   XYYAPMLoadMonitor *manager = [XYYAPMLoadMonitor shareManager];
-  [manager setupWithControllers:@[@"BaseViewController"]];
+ [manager setupWithControllers:@[@"BaseViewController"] appKey:@"C692469853282DD6" bundleId:@"com.apm.demo"];
   manager.openLog = YES;
   return YES;
 }

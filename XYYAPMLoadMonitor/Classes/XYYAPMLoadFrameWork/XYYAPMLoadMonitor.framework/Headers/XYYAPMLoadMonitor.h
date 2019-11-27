@@ -31,9 +31,12 @@ typedef NS_ENUM(NSInteger, XYYLogSendStrategy) {
 + (instancetype)shareManager;
 
 /**
- controllers 需要监听的控制器(不要传ViewController) 如果需要监听所有页面 只需要将基类传进来即可 例如@[@"BaseViewController"]
+ @pragram controllers 需要监听的控制器(不要传ViewController) 如果需要监听所有页面 只需要将基类传进来即可
+ @pragram appKey sdk Id
+ @pragram bubleId 应用bundleId
+ 例如@[@"BaseViewController"]
  */
-- (void)setupWithControllers:(NSArray*)controllers;
+- (void)setupWithControllers:(NSArray*)controllers appKey:(NSString*)appKey bundleId:(NSString*)bubleId;
 
 ///APP启动开始时间
 - (void)startAPPOpenTime;
@@ -43,8 +46,8 @@ typedef NS_ENUM(NSInteger, XYYLogSendStrategy) {
 - (void)firstVCLoadDoneTime;
 
 /*
- 日志发送时间间隔,单位为小时，有效值为1~24（发送策略为LogSendStrategyCustom时生效）
- 默认值 1
+ 日志发送时间间隔,单位为分钟（发送策略为LogSendStrategyCustom时生效）
+ 默认值 30
  */
 @property (nonatomic, assign, readwrite) int  logSendInterval;
 
@@ -69,5 +72,7 @@ typedef NS_ENUM(NSInteger, XYYLogSendStrategy) {
 
 //外部调用APP版本
 @property (nonatomic, copy)NSString *appVersion;
+
+
 
 @end
