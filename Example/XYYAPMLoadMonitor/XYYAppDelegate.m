@@ -19,6 +19,8 @@
   manager.enableMonitor = YES;
   manager.appVersion = @"1.1.0";//集成SDK应用的版本号
   manager.sessionResumeInterval = 30;//上报时间间隔 单位为分钟
+  manager.appLaunchDurationThreshold = 300;//设置App 首次启动耗时（冷启动）阀值 默认是300毫秒
+  manager.appLaunchDurationThreshold = 100;//设置ViewController 启动耗时 默认100毫秒
   [manager startWithControllers:@[@"BaseViewController"] appKey:@"C692469853282DD6" bundleId:@"com.apm.demo"];
   [manager firstVCLoadDoneTime];//第一个页面加载完成时间 此句代码需要注入到最后一行
   return YES;
